@@ -1,0 +1,111 @@
+/* <!-- 6. Orlando Jeans --> */
+/* header img#Logo_1 { */
+
+/* max-width: 220px; */
+
+/* width: 50%; */
+
+/* height: auto; */
+
+/* display: block; */
+
+/* margin: auto; */
+
+/* } */
+
+/* header img#Logo_2 {
+    /* max-width: 400px; */
+
+/* width: 50%; */
+
+/* height: auto; */
+
+/* display: block; */
+
+/* margin: auto; */
+
+/* }  */
+/* 10.3 first one */
+header #coolimage {
+    width: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    /* margin: auto auto;
+    width: 100%;
+    max-width: 1020px;
+    min-width: 640px; */
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    max-width: 960px;
+    min-width: 640px;
+}
+
+/* body>header>nav {
+    display: table;
+    width: 100%;
+}
+
+body>header>nav>ul {
+    display: table-row;
+}
+
+body>header>nav>ul>li {
+    display: table-cell;
+    text-align: center;
+} */
+/* 10.6 here */
+body>header>nav>ul>li {
+    width: 25%;
+    display: block;
+    float: left;
+} 
+/* 10.6 here */
+ body>nav>nav>ul>li>a {
+    width: 25%;
+    float: left;
+}
+/* 10.3 second one */
+/* 10.5 right here */
+div.coolstuff {
+    clear: both;
+}
+/* 10.5 right here */
+/* 10.7 first one */
+div.coolstuff::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+/* 10.5 right here */
+div.overall {
+    width: 100%;
+    float: left;
+    
+}
+/* 10.5 right here */
+div.stuff {
+    width: 50%;
+    float: left;
+}
+
+section {
+    background-color: black;
+}
+
+section h1 {
+    font-size: 2.2em;
+    padding-left: 10px;
+}
+/* 10.4 fourth one */
+footer {
+    text-align: center;
+    font-size: 1.3em;
+    border-top: 2px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}

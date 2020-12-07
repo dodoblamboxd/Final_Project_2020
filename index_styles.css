@@ -1,0 +1,95 @@
+/* <!-- 6. Orlando Jeans --> */
+
+/* 9. 5 CSS rules are here below */
+
+html {
+    background-color: #270303;
+}
+
+header {
+    background-color: black;
+}
+
+/* 10.4 third one */
+/* 10.9 two here */
+/* 10.10 */
+body {
+    background-color: black;
+    color: white;
+    margin-right: 5px;
+    padding-right: 5px;
+    font-family: 'Indie Flower', cursive;
+}
+/* 10.9 one here */
+body p {
+    line-height: 2em;
+    font-size: 1.5em;
+    ;
+}
+
+
+/* 10.2 first one */
+
+/* 10.3 third one */
+
+/* 10.4 second one */
+/* 10.6 right here */
+
+#Nav_Links a:link {
+    padding-top: auto;
+    padding-bottom: auto;
+}
+
+/* 10.2 second one */
+/* 10.6 right here */
+/* 10.8 fith one right here */
+#Nav_Links a:link, #Nav_Links a:visited {
+    color: white;
+}
+
+/* 10.2 third one */
+/* 10.6 right here */
+/* 10.8 third right here */
+#Nav_Links a:hover, #Nav_Links a:active {
+    color: black;
+    opacity: 0.8;
+    background-color: hsl(0, 100%, 38%);
+}
+
+/* 10.4 first one */
+
+body #Pawesome {
+    border: auto;
+    padding: 1%;
+    margin-right: 2px;
+}
+/* 10.4 fith one */
+ body #sweetspot {
+    color: black;
+    background-color: white;
+    border-color: violet;
+    border-radius: 2px;
+    border-style: dotted;
+}
+/* 10.7 second one */
+p::first-letter {
+    color:yellow;
+}
+/* 10.7 third one */
+p::first-line {
+    color:red;
+    font-variant: small-caps;
+  }
+ 
+ 
+  /* 10.8 fourth one */
+  ::selection {
+    color:pink;
+    background: black;
+  }
+  
+
+footer {
+    background-color: black;
+    color: yellow;
+}
